@@ -3,10 +3,10 @@
 import { Button } from '@/components/Button'
 import { styled } from 'styled-components'
 
-export default function Home() {
+export default function TestePage() {
   return (
     <>
-      <Title>Hello world</Title>
+      <Title>Teste page</Title>
       <Button>Test</Button>
     </>
   )
