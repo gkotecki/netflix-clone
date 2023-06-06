@@ -1,12 +1,14 @@
 'use client'
 
 import { Button } from '@/components/Button'
+import Navbar from '@/components/navbar/Navbar'
 import { styled } from 'styled-components'
 
-export default function TestePage() {
+export default function Page() {
   return (
     <>
-      <Title>Teste page</Title>
+      <Navbar />
+      <Title>Browse page</Title>
       <Button>Test</Button>
     </>
   )

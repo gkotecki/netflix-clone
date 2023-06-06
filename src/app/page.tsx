@@ -1,13 +1,13 @@
 'use client'
 
 import { Button } from '@/components/Button'
+import Link from 'next/link'
 import { styled } from 'styled-components'
 
 export default function Home() {
   return (
     <>
-      <Title>Hello world</Title>
-      <Button>Test</Button>
+      <Link href='/browse'>Browse</Link>
     </>
   )
 }
