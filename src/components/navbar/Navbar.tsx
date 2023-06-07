@@ -55,6 +55,7 @@ const Link = styled(NextLink)`
 	font-size: 14px;
 	color: #ccc;
 	transition: 0.2s;
+	text-decoration: none;
 	&:hover {
 		color: #999;
 	}
